@@ -30,7 +30,7 @@ export default function App() {
       });
 
       const response = await axios.post(
-        "http://localhost:9000/chat",
+        "https://server-xjqa.onrender.com/",
         {
           chat: userMessage,
           history: messages,
